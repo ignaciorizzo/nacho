@@ -20,6 +20,6 @@ class IndexController extends AbstractActionController
     }
 	 public function inicioAction()
     {
-        return new ViewModel(array("texto"=>"hola mundo", "texto2"=>"xxx"));
+        return new ViewModel(array("texto"=>"hola mundo como va", "texto2"=>"xxx"));
     }
 }
